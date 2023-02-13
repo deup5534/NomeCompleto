@@ -24,5 +24,5 @@ Console.ResetColor();
 Console.ForegroundColor = ConsoleColor.Yellow;
 Console.WriteLine("\nPode deixar...");
 Console.WriteLine("\n***escrevendo***");
-Console.WriteLine($"\nFicou assim! {SecondNome.ToUpper()}, {FirstNome} ");
+Console.WriteLine($"\nFicou assim! {SecondNome.ToUpper()}, {FirstNome.Substring(0,1).ToUpper()}{FirstNome.Substring(1).ToLower()} ");
 Console.ResetColor();
